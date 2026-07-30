@@ -1,0 +1,39 @@
+# Python generated artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build and packaging outputs
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local config, auth stores, and secrets
+.env
+.env.*
+!.env.example
+auth.json
+config.toml
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*token*
+*secret*
+
+# OS/editor noise
+.DS_Store
+.idea/
+.vscode/
